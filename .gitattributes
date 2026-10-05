@@ -1,0 +1,7 @@
+# Scripts executados no Linux (Docker e CI) precisam de quebra de linha LF
+/mvnw text eol=lf
+*.sh text eol=lf
+Dockerfile text eol=lf
+
+# Scripts do Windows
+*.cmd text eol=crlf
